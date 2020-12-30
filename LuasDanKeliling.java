@@ -7,10 +7,10 @@ class LuasDanKeliling {
     double panjang = sc.nextDouble();
     double lebar = sc.nextDouble();
     
-    double mLuas = Main.luas(panjang,lebar);
+    double mLuas = LuasDanKeliling.luas(panjang,lebar);
     System.out.println(mLuas);
     
-    double mKeliling = Main.keliling(panjang,lebar);
+    double mKeliling = LuasDanKeliling.keliling(panjang,lebar);
     System.out.println(mKeliling);
   }
   public static double keliling(double panjang, double lebar){
